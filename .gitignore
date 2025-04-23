@@ -101,3 +101,55 @@ coverage/
 !**/ios/**/default.pbxuser
 !**/ios/**/default.perspectivev3
 !/packages/flutter_tools/test/data/dart_dependencies_test/**/.packages
+
+# Operating System Files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE and Editor Files
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Build and Dependency Directories
+/build/
+/dist/
+/node_modules/
+/.dart_tool/
+/.pub-cache/
+/.pub/
+/out/
+/target/
+
+# Environment and Configuration Files
+.env
+.env.local
+.env.*.local
+*.env
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Testing
+/coverage/
+/.nyc_output/
+
+# Temporary Files
+*.tmp
+*.temp
+*.bak
+*.backup
+
+# System Files
+.DS_Store
+Thumbs.db
